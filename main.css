@@ -9,8 +9,9 @@
 }
 
 .header {                     
-	background-color: #87509C;
-	height: 600px;
+	background-color: #87509C; 
+	color: #f7f3ea;
+	padding-bottom: 100px;
 }
 
 .navbar { 
@@ -52,11 +53,9 @@
 	width: 100px; 
 }
 
-.header h2 {        
+h2 {        
 	font-size: 42px;
 	line-height: 49px;
-	color: #f7f3ea;
-	font-family: "Titillium Web";
 	font-weight: 700;
 	padding-top: 120px;
 	padding-bottom: 20px;
@@ -74,6 +73,8 @@ a.buttom{
 	margin: 4px 2px;
 	cursor: pointer;
 	border-bottom: 5px rgba(0,0,0,0.2) solid;
+	margin-top: 50px;
+	font-weight: bold;
 	text-transform: uppercase;
 }
 /*----------------------------------- BLOCK 1 ---------------------------*/
@@ -81,20 +82,21 @@ a.buttom{
 .block-1 {                   
 	background-color: #17C2A4;
 	padding-top: 1px;
+	color: #fff;
+	padding-bottom: 100px; 
 }
 
 .line {
 	width: 90px;
 	height: 5px;
 	margin: 0 auto;
+	margin-top: 10px; 
 	background-color: rgba(0,0,0,0.2);
 }
 
-.block-1 h2 {       
+h3 {       
 	font-size: 42px;
 	line-height: 49px;
-	color: #f7f3ea;
-	font-family: "Titillium Web";
 	font-weight: 700;
 	padding-top: 120px;
 	padding-bottom: 20px;
@@ -106,10 +108,10 @@ a.buttom{
 .block-1 p {
 	color: #fff; 
 	text-align: center; 
-	font-weight: 700;
 	font-size: 20px;
-	padding-top: 20px;
+	padding-top: 30px;
 	padding-bottom: 70px;
+	color: #E0F7F3;
 }
 
 .icon {             /*----------КОЛОНКИ----------*/ 
@@ -145,7 +147,7 @@ a.buttom{
 
 p.p2{
 	text-align: center;
-	color: white;
+	color: #E0F7F3;
 	font-size: 18px;
 	padding-bottom: 20px;
 }
@@ -155,6 +157,7 @@ p.p1 {
 	font-size: 125%;
 	text-align: center;    
 	color: white;
+	font-weight: bold;
 	text-transform: uppercase;
 }                      
 
@@ -163,8 +166,9 @@ p.p1 {
 	background-color: #E7F1F8;
 	padding-top: 1px;
 	color: white;
-	padding-bottom: 50px;
+	padding-bottom: 70px; 
 	text-align: center;
+	color: #696969;
 }
 
 .circle {
@@ -175,60 +179,58 @@ p.p1 {
 	margin: 0 auto;
 }
 
-p.h {
-	font-size: 250%;
-	color: #696969;
-	padding-top: 120px;
-	font-weight: bold;
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	text-transform: uppercase;
-}
-
 p.text-2{
 	color: #696969;
 	font-size: 18px;
 	padding-bottom: 50px;
+	font-weight: bold;
+	padding-top: 10px;
 }
 
 p.text-3 {
 	font-size: 150%;
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	padding-top: 10px;
+	margin-top: 50px;
 	padding-bottom: 0px;
 	color: #696969;
 	text-transform: uppercase;
+	font-weight: bold;
 }
 
 p.text-4 {
 	color: #40E0D0;
 	font-size: 18px;
+	margin-top: 10px;
+}
+
+p.text-5 {
+	color: #696969;
+	font-size: 18px;
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+img {
+	padding-left: 3px;
+	padding-right: 3px;
 }
 /*----------------------------------BLOCK-3--------------------------------------*/
 .block-3 {
 	background-color: #FFFFFF;
 	padding-top: 1px;
-	padding-bottom: 50px;
+	padding-bottom: 50px; 
 	text-align: center;
-}
-p.h-1 {
-	font-size: 250%;
-	padding-top: 120px;
-	font-weight: bold;
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	color: #3C4761;
-	text-transform: uppercase;
 }	
 
 p.text1-block3 {
 	color: #3C4761;
 	font-size: 18px;
 	padding-bottom: 50px;
+	margin-top: 10px;
 }
 
 p.text2-block3 {
 	font-size: 150%;
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	padding-top: 10px;
+	padding-top: 30px;
 	padding-bottom: 0px;
 	color: #3C4761;
 	text-align: center;
@@ -500,22 +502,15 @@ font-size: 0.6em;
 .block-4 {
 	background-color: #FFDD99;
 	padding-top: 1px;
-	padding-bottom: 50px;
+	padding-bottom: 50px; 
 	text-align: center;
-}
-p.h-2 {
-	font-size: 250%;
-	padding-top: 120px;
-	font-weight: bold;
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	color: #393939;
-	text-transform: uppercase;
-}	
+}
 
 p.text1-block4 {
-	color: #393939;
 	font-size: 18px;
 	padding-bottom: 20px;
+	padding-top: 10px;
 }
 
 .navbar-1 {       /*----------------------------------MENU BLOCK-4-----------------------------------*/
@@ -523,6 +518,7 @@ p.text1-block4 {
 	text-align: center;
 	background-color: #FFDD99;
 	font-weight: bold;
+	padding-top: 30px;
 	padding-bottom: 70px;
 	text-transform: uppercase;
 }
@@ -562,7 +558,8 @@ a.active-1 {
 p.text2-block4 {
 	color: #393939;
 	font-size: 18px;
-	padding-bottom: 50px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 	text-transform: uppercase;
 }
 
@@ -578,37 +575,35 @@ a.buttom-1{
 	cursor: pointer;
 	font-weight: bold;
 	border-bottom: 5px rgba(0,0,0,0.2) solid; 
+	margin-top: 30px;
 	margin-bottom: 50px; 
+	text-transform: uppercase;
 }
 /*----------------------------------- BLOCK 5 ---------------------------*/
 
 .block-5 {
 	background-color: #D74580;
 	padding-top: 1px;
-	padding-bottom: 100px;
 	text-align: center;
-}
-p.h-3 {
-	font-size: 250%;
-	padding-top: 120px;
-	font-weight: bold;
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	color: #fff;
 }	
 
 p.text1-block5 {
 	color: #F4CDDD;
 	font-size: 18px;
-	padding-bottom: 50px;
+	padding-top: 10px;
+	padding-bottom: 80px;
 }
 
 .col-5{
 	float: left;
 	width: 50%;
+	margin-bottom: 120px;
 }
 
 .col-6{
 	float: left;
+	margin-bottom: 20px; 
 	width: 50%;
 }
 
@@ -632,7 +627,9 @@ p.text1-block5 {
 p.text2-block5 {
 	color: #fff;
 	font-size: 18px;
+	padding-top: 20px;
 	margin-bottom: 0px;
+	text-transform: uppercase;
 }
 
 p.text3-block5 {
@@ -645,18 +642,13 @@ p.text3-block5 {
 	background-color: #4560B1;
 	padding-top: 1px;
 	text-align: center;
-}
-p.h-4 {
-	font-size: 250%;
-	padding-top: 120px;
-	font-weight: bold;
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	color: #fff;
 }	
 
 p.text1-block6 {
-	color: #fff;
+	color: #D8DDEB;
 	font-size: 18px;
+	padding-top: 10px;
 	padding-bottom: 50px;
 }
 
@@ -711,7 +703,7 @@ textarea {
 	padding: 10px; 
 }
 
-button {                     
+button.button {                     
 	background-color: #30BAE7; 
 	border: none;
 	color: white;
@@ -722,30 +714,28 @@ button {
 	margin: 4px 2px;
 	cursor: pointer;
 	font-weight: bold;
-	border-bottom: 5px rgba(0,0,0,0.2) solid; 
-	margin-bottom: 50px; 
+	border-bottom: 5px rgba(0,0,0,0.2) solid;
+	margin-top: 50px;  
+	margin-bottom: 30px; 
 	border-radius: 5px;
-}
-
-.red {
-	color: red;
+	text-transform: uppercase;
 }
 
 .foot {          /*---------------FOOTER------------------*/
-font-weight: bold;
-font-size: 20px;
-padding-bottom: 25px;
-padding-top: 25px;
-text-align: center;
-background-color: #344B8E;
-margin-top: 50px; 
+	font-weight: bold;
+	font-size: 20px;
+	padding-bottom: 25px;
+	padding-top: 25px;
+	text-align: center;
+	background-color: #344B8E;
+	margin-top: 50px; 
 }
 
 .foot a { 
-color: #fff;
-padding-left: 25px;
-padding-right: 25px;
-text-decoration: none;
+	color: #fff;
+	padding-left: 25px;
+	padding-right: 25px;
+	text-decoration: none;
 }
 
 .foot a:hover {                 
